@@ -58,6 +58,7 @@
 }
 
 .nav-bar {
+    position: fixed;
     background-color: rgba(2, 6, 10, 0.8);
     width: 100%;
     box-shadow: rgba(225, 235, 245, 0.3) 0 4px 18px;

@@ -46,3 +46,7 @@ html {
     font-size: 100%;
     scroll-behavior: smooth;
 }
+
+.page {
+    padding-top: 5.5rem;
+}
