@@ -7,12 +7,14 @@
 }
 
 ::selection {
-    color: white;
-    background: #212A3E;
+    background: rgba(225, 235, 245, 0.75);
+    color: rgba(4, 14, 20, 1);
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
+    background-color: rgba(4, 14, 20, 1);
+    color: rgba(225, 235, 245, 1)
 }
 
 ::-webkit-scrollbar {
