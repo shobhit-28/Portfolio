@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-
 @media only screen and (max-width: 900px) {
     .nav-bar .left-section {
         flex-direction: column;
