@@ -36,6 +36,10 @@
     .nav-bar .right-section .menu-container .menu li {
         font-size: 1.5rem !important;
     }
+
+    .nav-bar .right-section .menu-container .menu {
+        display: block !important;
+    }
 }
 
 @media only screen and (max-width: 450px) {
@@ -66,6 +70,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 1;
 }
 
 .nav-bar * {
@@ -142,6 +147,7 @@
     padding: 0.5rem;
     border-radius: 0.35rem;
     transition: 0.5s;
+    display: none;
 }
 
 .nav-bar .right-section .menu-container .menu ul {

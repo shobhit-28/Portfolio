@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import './navbar.css'
 
-import { BsFilterRight } from 'react-icons/bs'
+import { RxHamburgerMenu } from 'react-icons/rx'
 import { AiOutlineClose } from 'react-icons/ai'
 
 export const Navbar = () => {
@@ -49,7 +49,7 @@ export const Navbar = () => {
                         </button>
                         :
                         <button className="icon" onClick={() => setIsMenuOpen(true)}>
-                            <BsFilterRight />
+                            <RxHamburgerMenu />
                         </button>
                     }
                     {isMenuOpen &&
