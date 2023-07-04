@@ -35,6 +35,10 @@ img {
   width: 100%;
 }
 
+video {
+  width: 100%;
+}
+
 button {
     transition: 0.5s;
 }

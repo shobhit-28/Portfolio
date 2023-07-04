@@ -7,7 +7,7 @@ export const ProjectPage = () => {
     <div className='project-page page'>
       <p className="head">My Projects</p>
       <div className="project-container">
-        {projects?.map((project) => (
+        {projects.sort((a,b) => b.id - a.id )?.map((project) => (
           <ProjectCard project={project} key={project.id} />
         ))}
       </div>
