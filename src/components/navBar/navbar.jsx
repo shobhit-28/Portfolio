@@ -39,7 +39,7 @@ export const Navbar = () => {
         <div className="nav-bar" ref={navbarRef}>
             <div className="left-section" onClick={() => navigate('/')}>
                 <div className="header-img-container">
-                    <img src="public/myImg/DSC_0869~3.JPG" alt="" />
+                    <img src="https://github.com/shobhit-28/Portfolio/blob/main/src/Resources/MyImages/DSC_0869~3.JPG?raw=true" alt="" />
                 </div>
                 <p className="header">
                     Shobhit Raj

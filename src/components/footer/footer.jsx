@@ -8,7 +8,7 @@ export const Footer = () => {
     <div className='footer'>
         <div className="name-img">
             <div className="img-container">
-                <img src="src\Resources\MyImages\DSC_0869~3.JPG" alt="" />
+                <img src="https://github.com/shobhit-28/Portfolio/blob/main/src/Resources/MyImages/DSC_0869~3.JPG?raw=true" alt="" />
             </div>
             <p className="name">Shobhit Raj</p>
         </div>

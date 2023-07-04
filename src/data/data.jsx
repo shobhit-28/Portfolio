@@ -4,7 +4,7 @@ export const projects = [
         title: "Raj's Mail",
         url: 'https://neog-react-set-10.vercel.app/',
         git: 'https://github.com/shobhit-28/neog-react-set-10',
-        img: 'src/Resources/projects/RajMail.png',
+        img: 'https://github.com/shobhit-28/Portfolio/blob/main/src/Resources/projects/RajMail.png?raw=true',
         vid: '',
         features: [
             `Developed Raj's Mail, a front-end user interface for an email application using React.js.`,
@@ -18,7 +18,7 @@ export const projects = [
         url: 'https://neog-project-1-ecommerce.vercel.app/',
         git: 'https://github.com/shobhit-28/neog_project_1_ecommerce',
         img: '',
-        vid: 'src/Resources/projects/Raj-Kart.mp4',
+        vid: 'https://user-images.githubusercontent.com/92620327/250941302-d83fddbe-37d7-4945-897f-26c3e18b605a.mp4',
         features: [
             `Developed Raj-Kart, an e-commerce application using React.js and mockbee (a mock backend platform).`,
             `Integrated with backend API to fetch and display product data, handle user authentication, and process orders`,
@@ -32,7 +32,7 @@ export const projects = [
         url: 'https://neog-raj-sphere.vercel.app/',
         git: 'https://github.com/shobhit-28/neog-raj-sphere',
         img: '',
-        vid: 'src/Resources/projects/RajSphere.mp4',
+        vid: 'https://user-images.githubusercontent.com/92620327/250064438-917fcc67-10f9-4800-8caf-9558f2b88337.mp4',
         features: [
             `Developed RajSphere, a social media application using React.js and mockbee (a mock backend platform).`,
             `Integrated with a backend API to fetch and display user data, handle authentication, and manage social interactions.`,
