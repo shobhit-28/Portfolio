@@ -13,6 +13,10 @@
         font-size: 1.5rem !important;
     }
 
+    .footer .name-img .mail {
+        font-size: 1.15rem !important;
+    }
+    
     .footer .socials a:hover {
         background-color: transparent !important;
         color: rgba(235, 245, 255, 0.75) !important;
@@ -25,8 +29,12 @@
         width: 2rem !important;
         height: 2rem !important;
     }
-
+    
     .footer .name-img .name {
+        font-size: 1rem !important;
+    }
+    
+    .footer .name-img .mail {
         font-size: 1rem !important;
     }
 
@@ -85,6 +93,27 @@
 
 .footer .name-img .name:hover {
     text-shadow: 0px 0px 18px rgba(235, 245, 255, 0.75);
+}
+
+.footer .name-img .mail {
+    margin: 0 0.5rem;
+    font-size: 1.25rem;
+    color: rgba(235, 245, 255, 1);
+    padding: 0.5rem;
+    border-radius: 0.45rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.75s;
+    text-decoration: none;
+    border: .1px solid rgba(235, 245, 255, 1);
+    margin-left: 1.25rem;
+}
+
+.footer .name-img .mail:hover {
+    color: rgba(2, 6, 10, 0.8);
+    background-color: rgba(235, 245, 255, 0.75);
+    transform: scale(0.9);
 }
 
 .footer .socials {

@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-no-target-blank */
 import './footer.css'
 
-import {AiFillGithub, AiFillLinkedin, AiOutlineTwitter} from 'react-icons/ai'
+import {AiFillGithub, AiFillLinkedin, AiOutlineTwitter, AiTwotoneMail} from 'react-icons/ai'
 
 export const Footer = () => {
   return (
@@ -11,6 +11,7 @@ export const Footer = () => {
                 <img src="https://github.com/shobhit-28/Portfolio/blob/main/src/Resources/MyImages/DSC_0869~3.JPG?raw=true" alt="" />
             </div>
             <p className="name">Shobhit Raj</p>
+            <a className="mail" href='mailto:shobhitraj34@gmail.com'><AiTwotoneMail /> Mail me</a>
         </div>
         <div className="socials">
             <a className="linkedin" href='https://www.linkedin.com/in/shobhit-raj-19a588215/' target='_blank'><AiFillLinkedin /></a>
