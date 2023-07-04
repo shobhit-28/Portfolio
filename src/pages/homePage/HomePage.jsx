@@ -15,7 +15,7 @@ export const HomePage = () => {
                     <p className="head">Shobhit Raj <br /> <span className="info">Frontend Web Developer</span></p>
                 </div>
                 <div className="img-container">
-                    <img src='/src/Resources/MyImages/DSC_0989~2.JPG' alt="" title='Shobhit Raj' />
+                    <img src='https://github.com/shobhit-28/Portfolio/blob/main/src/Resources/MyImages/DSC_0869~3.JPG?raw=true' alt="" title='Shobhit Raj' />
                 </div>
             </div>
             <section id="skills" className="skills">
