@@ -39,7 +39,11 @@ export const Navbar = () => {
             <div className="right-section">
                 <ul className="nav-links lg-links">
                     <li className="nav-link">Projects</li>
-                    <li className="nav-link">Resume</li>
+                    <li className="nav-link">
+                        <a href="https://drive.google.com/file/d/14JcAMfKdZXS2mUFGXIHAV0lfElCkmPvp/view?usp=sharing" className="link" target='_blank' rel="noreferrer">
+                            Resume
+                        </a>
+                    </li>
                 </ul>
                 <div className="menu-container">
                     {isMenuOpen
@@ -56,7 +60,11 @@ export const Navbar = () => {
                         <div className="menu" ref={menuRef}>
                             <ul className="nav-links">
                                 <li className="nav-link">Projects</li>
-                                <li className="nav-link">Resume</li>
+                                <li className="nav-link">
+                                    <a href="https://drive.google.com/file/d/14JcAMfKdZXS2mUFGXIHAV0lfElCkmPvp/view?usp=sharing" className="link" target='_blank' rel="noreferrer">
+                                        Resume
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     }
