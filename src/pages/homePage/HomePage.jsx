@@ -2,7 +2,7 @@ import './HomePage.css'
 
 import { AiFillHtml5 } from 'react-icons/ai'
 import { SiCss3, SiJest, SiRedux, SiTailwindcss, SiTypescript } from 'react-icons/si'
-import { IoLogoJavascript, IoLogoPython } from 'react-icons/io'
+import { IoLogoJavascript, IoLogoPython, IoLogoAngular } from 'react-icons/io'
 import { FaReact } from 'react-icons/fa'
 import { FaArrowRightLong } from 'react-icons/fa6'
 
@@ -42,6 +42,7 @@ export const HomePage = () => {
                                 <SiJest title='Jest' />
                                 <SiTailwindcss title='Tailwind' />
                                 <SiRedux title='Redux' />
+                                <IoLogoAngular title='Angular' />
                             </span>
                         </li>
                     </ul>

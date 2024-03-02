@@ -49,7 +49,7 @@ export const Navbar = () => {
                 <ul className="nav-links lg-links">
                     <li className="nav-link" onClick={() => projectClickHandler()}>Projects</li>
                     <li className="nav-link">
-                        <a href="https://drive.google.com/file/d/1Iqg5wTl2yIhPBU6vqSWCjYHmWKSONGlK/view?usp=sharing" className="link" target='_blank' rel="noreferrer">
+                        <a href="https://drive.google.com/file/d/14RSWMpauX1fQKu3RPJn98QW5ZVoqA65N/view?usp=sharing" className="link" target='_blank' rel="noreferrer">
                             Resume
                         </a>
                     </li>
@@ -70,7 +70,7 @@ export const Navbar = () => {
                             <ul className="nav-links">
                                 <li className="nav-link" onClick={() => projectClickHandler()}>Projects</li>
                                 <li className="nav-link" onClick={() => setIsMenuOpen(false)}>
-                                    <a href="https://drive.google.com/file/d/1Iqg5wTl2yIhPBU6vqSWCjYHmWKSONGlK/view?usp=sharing" className="link" target='_blank' rel="noreferrer">
+                                    <a href="https://drive.google.com/file/d/14RSWMpauX1fQKu3RPJn98QW5ZVoqA65N/view?usp=sharing" className="link" target='_blank' rel="noreferrer">
                                         Resume
                                     </a>
                                 </li>
