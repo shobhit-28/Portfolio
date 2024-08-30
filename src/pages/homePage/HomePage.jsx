@@ -12,7 +12,7 @@ export const HomePage = () => {
         <div className='home-page page'>
             <div className="top-content">
                 <div className="contents">
-                    <p className="head">Shobhit Raj <br /> <span className="info">Frontend Web Developer</span></p>
+                    <p className="head">Shobhit Raj <br /> <span className="info">SDE-I @ JIO Platforms Ltd.</span></p>
                 </div>
                 <div className="img-container">
                     <img src='https://github.com/shobhit-28/Portfolio/blob/main/src/Resources/MyImages/DSC_0989~2.JPG?raw=true' alt="" title='Shobhit Raj' />
