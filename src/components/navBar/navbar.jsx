@@ -49,7 +49,7 @@ export const Navbar = () => {
                 <ul className="nav-links lg-links">
                     <li className="nav-link" onClick={() => projectClickHandler()}>Projects</li>
                     <li className="nav-link">
-                        <a href="https://drive.google.com/file/d/1_OSC9hz9AVRGGknWB-_we5GJYoIQAQWD/view?usp=sharing" className="link" target='_blank' rel="noreferrer">
+                        <a href="https://drive.google.com/file/d/1qf-vmvT5X7WM9xz_-6QB9DM9838KRYtu/view" className="link" target='_blank' rel="noreferrer">
                             Resume
                         </a>
                     </li>
