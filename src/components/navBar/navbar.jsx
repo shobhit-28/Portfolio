@@ -14,6 +14,8 @@ export const Navbar = () => {
     const menuRef = useRef(null)
     const navbarRef = useRef(null)
 
+    const resumeUrl = `https://drive.google.com/file/d/1qf-vmvT5X7WM9xz_-6QB9DM9838KRYtu/view`
+
     useEffect(() => {
         const handleOutsideClick = (e) => {
             if (!menuRef?.current?.contains(e?.target)) {
@@ -49,7 +51,7 @@ export const Navbar = () => {
                 <ul className="nav-links lg-links">
                     <li className="nav-link" onClick={() => projectClickHandler()}>Projects</li>
                     <li className="nav-link">
-                        <a href="https://drive.google.com/file/d/1qf-vmvT5X7WM9xz_-6QB9DM9838KRYtu/view" className="link" target='_blank' rel="noreferrer">
+                        <a href={resumeUrl} className="link" target='_blank' rel="noreferrer">
                             Resume
                         </a>
                     </li>
@@ -70,7 +72,7 @@ export const Navbar = () => {
                             <ul className="nav-links">
                                 <li className="nav-link" onClick={() => projectClickHandler()}>Projects</li>
                                 <li className="nav-link" onClick={() => setIsMenuOpen(false)}>
-                                    <a href="https://drive.google.com/file/d/1e4ILmZVsyRm384pteUWaYA7DHu_wB1Tf/view?usp=sharing" className="link" target='_blank' rel="noreferrer">
+                                    <a href={resumeUrl} className="link" target='_blank' rel="noreferrer">
                                         Resume
                                     </a>
                                 </li>
