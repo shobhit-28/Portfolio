@@ -14,7 +14,7 @@ export const Footer = () => {
             <a className="mail" href='mailto:shobhitraj34@gmail.com'><AiTwotoneMail /> Mail me</a>
         </div>
         <div className="socials">
-            <a className="linkedin" href='https://www.linkedin.com/in/shobhit-raj-19a588215/' target='_blank'><AiFillLinkedin /></a>
+            <a className="linkedin" href='https://in.linkedin.com/in/shobhit-raj-19a588215' target='_blank'><AiFillLinkedin /></a>
             <a className="github" href='https://github.com/shobhit-28/' target='_blank'><AiFillGithub /></a>
             <a className="twitter" href='https://twitter.com/Shobhit28573001' target='_blank'><AiOutlineTwitter /></a>
         </div>
