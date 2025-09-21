@@ -14,7 +14,7 @@ export const Navbar = () => {
     const menuRef = useRef(null)
     const navbarRef = useRef(null)
 
-    const resumeUrl = `https://drive.google.com/file/d/1qf-vmvT5X7WM9xz_-6QB9DM9838KRYtu/view`
+    const resumeUrl = `https://drive.google.com/file/d/1WIJ5M6KMmhmOBFMQZ7Sd5wcSBtyLYYJ3/view`
 
     useEffect(() => {
         const handleOutsideClick = (e) => {
